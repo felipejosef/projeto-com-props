@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Contacts from "./components/Contacts";
@@ -9,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Projects></Projects>
       <Contacts></Contacts>
+      <Footer></Footer>
     </div>
   );
 }
